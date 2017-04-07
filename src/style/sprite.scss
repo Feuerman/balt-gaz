@@ -1,0 +1,178 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$icon-close-black-name: 'icon__close--black';
+$icon-close-black-x: 132px;
+$icon-close-black-y: 0px;
+$icon-close-black-offset-x: -132px;
+$icon-close-black-offset-y: 0px;
+$icon-close-black-width: 14px;
+$icon-close-black-height: 14px;
+$icon-close-black-total-width: 146px;
+$icon-close-black-total-height: 166px;
+$icon-close-black-image: '../img/sprite.png';
+$icon-close-black: (132px, 0px, -132px, 0px, 14px, 14px, 146px, 166px, '../img/sprite.png', 'icon__close--black', );
+$icon-close-grey-name: 'icon__close--grey';
+$icon-close-grey-x: 118px;
+$icon-close-grey-y: 14px;
+$icon-close-grey-offset-x: -118px;
+$icon-close-grey-offset-y: -14px;
+$icon-close-grey-width: 14px;
+$icon-close-grey-height: 14px;
+$icon-close-grey-total-width: 146px;
+$icon-close-grey-total-height: 166px;
+$icon-close-grey-image: '../img/sprite.png';
+$icon-close-grey: (118px, 14px, -118px, -14px, 14px, 14px, 146px, 166px, '../img/sprite.png', 'icon__close--grey', );
+$icon-doc-white-name: 'icon__doc--white';
+$icon-doc-white-x: 0px;
+$icon-doc-white-y: 134px;
+$icon-doc-white-offset-x: 0px;
+$icon-doc-white-offset-y: -134px;
+$icon-doc-white-width: 24px;
+$icon-doc-white-height: 32px;
+$icon-doc-white-total-width: 146px;
+$icon-doc-white-total-height: 166px;
+$icon-doc-white-image: '../img/sprite.png';
+$icon-doc-white: (0px, 134px, 0px, -134px, 24px, 32px, 146px, 166px, '../img/sprite.png', 'icon__doc--white', );
+$icon-icon-menu-1-name: 'icon__icon-menu--1';
+$icon-icon-menu-1-x: 90px;
+$icon-icon-menu-1-y: 44px;
+$icon-icon-menu-1-offset-x: -90px;
+$icon-icon-menu-1-offset-y: -44px;
+$icon-icon-menu-1-width: 16px;
+$icon-icon-menu-1-height: 14px;
+$icon-icon-menu-1-total-width: 146px;
+$icon-icon-menu-1-total-height: 166px;
+$icon-icon-menu-1-image: '../img/sprite.png';
+$icon-icon-menu-1: (90px, 44px, -90px, -44px, 16px, 14px, 146px, 166px, '../img/sprite.png', 'icon__icon-menu--1', );
+$icon-icon-menu-2-name: 'icon__icon-menu--2';
+$icon-icon-menu-2-x: 74px;
+$icon-icon-menu-2-y: 58px;
+$icon-icon-menu-2-offset-x: -74px;
+$icon-icon-menu-2-offset-y: -58px;
+$icon-icon-menu-2-width: 16px;
+$icon-icon-menu-2-height: 16px;
+$icon-icon-menu-2-total-width: 146px;
+$icon-icon-menu-2-total-height: 166px;
+$icon-icon-menu-2-image: '../img/sprite.png';
+$icon-icon-menu-2: (74px, 58px, -74px, -58px, 16px, 16px, 146px, 166px, '../img/sprite.png', 'icon__icon-menu--2', );
+$icon-icon-menu-3-name: 'icon__icon-menu--3';
+$icon-icon-menu-3-x: 58px;
+$icon-icon-menu-3-y: 74px;
+$icon-icon-menu-3-offset-x: -58px;
+$icon-icon-menu-3-offset-y: -74px;
+$icon-icon-menu-3-width: 16px;
+$icon-icon-menu-3-height: 16px;
+$icon-icon-menu-3-total-width: 146px;
+$icon-icon-menu-3-total-height: 166px;
+$icon-icon-menu-3-image: '../img/sprite.png';
+$icon-icon-menu-3: (58px, 74px, -58px, -74px, 16px, 16px, 146px, 166px, '../img/sprite.png', 'icon__icon-menu--3', );
+$icon-triangle-large-blue-name: 'icon__triangle--large--blue';
+$icon-triangle-large-blue-x: 41px;
+$icon-triangle-large-blue-y: 90px;
+$icon-triangle-large-blue-offset-x: -41px;
+$icon-triangle-large-blue-offset-y: -90px;
+$icon-triangle-large-blue-width: 17px;
+$icon-triangle-large-blue-height: 22px;
+$icon-triangle-large-blue-total-width: 146px;
+$icon-triangle-large-blue-total-height: 166px;
+$icon-triangle-large-blue-image: '../img/sprite.png';
+$icon-triangle-large-blue: (41px, 90px, -41px, -90px, 17px, 22px, 146px, 166px, '../img/sprite.png', 'icon__triangle--large--blue', );
+$icon-triangle-large-white-name: 'icon__triangle--large--white';
+$icon-triangle-large-white-x: 24px;
+$icon-triangle-large-white-y: 112px;
+$icon-triangle-large-white-offset-x: -24px;
+$icon-triangle-large-white-offset-y: -112px;
+$icon-triangle-large-white-width: 17px;
+$icon-triangle-large-white-height: 22px;
+$icon-triangle-large-white-total-width: 146px;
+$icon-triangle-large-white-total-height: 166px;
+$icon-triangle-large-white-image: '../img/sprite.png';
+$icon-triangle-large-white: (24px, 112px, -24px, -112px, 17px, 22px, 146px, 166px, '../img/sprite.png', 'icon__triangle--large--white', );
+$icon-triangle-white-name: 'icon__triangle--white';
+$icon-triangle-white-x: 106px;
+$icon-triangle-white-y: 28px;
+$icon-triangle-white-offset-x: -106px;
+$icon-triangle-white-offset-y: -28px;
+$icon-triangle-white-width: 12px;
+$icon-triangle-white-height: 16px;
+$icon-triangle-white-total-width: 146px;
+$icon-triangle-white-total-height: 166px;
+$icon-triangle-white-image: '../img/sprite.png';
+$icon-triangle-white: (106px, 28px, -106px, -28px, 12px, 16px, 146px, 166px, '../img/sprite.png', 'icon__triangle--white', );
+$spritesheet-width: 146px;
+$spritesheet-height: 166px;
+$spritesheet-image: '../img/sprite.png';
+$spritesheet-sprites: ($icon-close-black, $icon-close-grey, $icon-doc-white, $icon-icon-menu-1, $icon-icon-menu-2, $icon-icon-menu-3, $icon-triangle-large-blue, $icon-triangle-large-white, $icon-triangle-white, );
+$spritesheet: (146px, 166px, '../img/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

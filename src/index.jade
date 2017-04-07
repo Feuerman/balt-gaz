@@ -1,0 +1,107 @@
+include templates/head.jade
+body
+	.page-wrapper
+		header.header
+			.container
+				.header__logo
+					img(src="img/logo.png", alt="")
+				.header__info
+					span.header__info-phone 8 (800) 555 40 35
+					a.header__info-callback(href="#") Перезвонить мне
+		.top-slider
+			.top-slider__video
+				video#service-video(src="img/service-1.mp4" autoplay loop)
+			.top-slider__content(data-video-url="img/service-1.mp4")
+				.title Энергоцентры Котельные
+				.text Комплексное обслуживание котельных любой мощности, систем газоснабжения  и других технологических объектов
+				a.link(href="#") Узнать больше
+			.top-slider__content(data-video-url="img/service-3.mp4")
+				.title Газовые котлы и системы отопления
+				.text Комплексное обслуживание котельных любой мощности, систем газоснабжения  и других технологических объектов
+				a.link(href="#") Узнать больше
+			.top-slider__content(data-video-url="img/service-2.mp4")
+				.title Газификация
+				.text Комплексное обслуживание котельных любой мощности, систем газоснабжения  и других технологических объектов
+				a.link(href="#") Узнать больше
+			.top-slider__nav
+				button.left(data-direction="left")
+					i.icon.icon__triangle--large--white
+				button.right(data-direction="right")
+					i.icon.icon__triangle--large--white
+			ul.main-nav
+				li.main-nav__item
+					a.main-nav__link(href="#") 
+						i.icon.icon__icon-menu--1
+						span Интернет-магазин
+				li.main-nav__item
+					a.main-nav__link(href="#") 
+						i.icon.icon__icon-menu--2
+						span Корпоративный сайт
+				li.main-nav__item
+					a.main-nav__link(href="#") 
+						i.icon.icon__icon-menu--3
+						span Портал
+		.container
+			.service-tizers
+				a.service-tizers__item(style="background-image: url('img/service-1.jpg');" href="#")
+					.service-tizers__item-content
+						.title
+							| Энергоцентры
+							br
+							| и котельные
+						.text Энергоцентры  и котельные
+				a.service-tizers__item(style="background-image: url('img/service-2.jpg');" href="#")
+					.service-tizers__item-content
+						.title
+							| Газовые котлы
+							br
+							| и системы отопления
+						.text Газовые котлы и системы отопления
+				a.service-tizers__item(style="background-image: url('img/service-3.jpg');" href="#")
+					.service-tizers__item-content
+						.title
+							| Водонагреватели
+							br
+							| и газовые плиты
+						.text Водонагреватели и газовые плиты
+				a.service-tizers__item(style="background-image: url('img/service-4.jpg');" href="#")
+					.service-tizers__item-content
+						.title
+							| Аварийно-
+							br
+							| спасательная служба
+						.text Аварийно- спасательная служба
+				a.service-tizers__item(style="background-image: url('img/service-5.jpg');" href="#")
+					.service-tizers__item-content
+						.title
+							| Для частных
+							br
+							| домов
+						.text Для частных домов
+				a.service-tizers__item(style="background-image: url('img/service-6.jpg');" href="#")
+					.service-tizers__item-content
+						.title
+							| Промышленная
+							br
+							| газификация
+						.text Компания оказывает полный комплекс услуг по газификации - от проектирования наружных газовых сетей до технического надзора и сдачи объекта в эксплуатацию частных и многоквартирных домов, хозяйственных и промышленных помещений;
+				a.service-tizers__item(style="background-image: url('img/service-7.jpg');" href="#")
+					.service-tizers__item-content
+						.title
+							| Газовые котлы
+							br
+							| и системы отопления
+						.text Газовые котлы и системы отопления
+		.container
+			section.documents
+				.documents__title Нормативные документы и разрешения
+				.documents__content
+					a.documents__content-item(href="#")
+						.image(style="background-image: url('img/documents-1.jpg')")
+							i.icon.icon__doc--white
+						.text Свидетельство на допуск к работам., влияющим на безопасность объектов  капитального строительства						
+					a.documents__content-item(href="#")
+						.image(style="background-image: url('img/documents-2.jpg')")
+							i.icon.icon__doc--white
+						.text Свидетельство на право ведения аварийно-спасательных работ в ЧС
+include templates/footer.jade
