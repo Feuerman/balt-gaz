@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru"></html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="vendor/normalize.css">
+  <link rel="stylesheet" href="vendor/owl-carousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="vendor/owl-carousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="vendor/fancybox-3.0/dist/jquery.fancybox.min.css">
+  <link href="vendor/jQuery-form-styler/jquery.formstyler.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <div class="page-wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__logo"><img src="img/logo.png" alt=""></div>
+        <div class="header__info"><span class="header__info-phone">8 (800) 555 40 35</span><a href="javascript:;" data-src="#callback-modal" data-fancybox class="header__info-callback">Перезвонить мне</a></div>
+      </div>
+    </header>
+    <section class="calculator">
+      <div class="container">
+        <section class="breadcrumbs breadcrumbs--light">
+          <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Водонагреватели и газовые плиты</a></li>
+            <li><span>Калькулятор</span></li>
+          </ul>
+        </section>
+        <form class="calculator-form">
+          <div class="calculator__header">
+            <div class="image"><img src="img/service-1.png" alt=""></div>
+            <div class="desc">
+              <div class="desc__title">Кулькулятор стоимости работ</div>
+              <div class="desc__category">Водонагреватели и газовые плиты</div>
+              <div class="desc__attention">
+                <p>Внимание: Все указанные цены носят онакомительный характер, полная смета формируется менеджером после уточнения всех деталей работ</p>
+              </div>
+              <div class="desc__select">
+                <select name="city" class="custom-input">
+                  <option value="1">Москва</option>
+                  <option value="2">Санкт-Петербург</option>
+                  <option value="3">Киев</option>
+                  <option value="4">Нью-Йорк</option>
+                  <option value="5">Токио</option>
+                </select>
+                <select name="day" class="custom-input">
+                  <option value="1">Будний день</option>
+                  <option value="2">Выходной</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="calculator__content">
+            <div data-row="1" class="form-group">
+              <div class="property">
+                <div class="property__text">
+                  <p>Выезд мастера на адрес, консультация, диагностика</p>
+                </div>
+                <div class="property__value"><span>1400 руб.</span>
+                  <input type="checkbox" checked class="custom-input">
+                </div>
+              </div>
+            </div>
+            <div data-row="2" class="form-group">
+              <div class="property">
+                <div class="property__text">
+                  <p>Монтаж напольного газовго котла с 1 контуром (обвязка по воде, подклюсение газа до 1 м до выводов подключения воды и газа)</p>
+                </div>
+                <div class="property__value"><span>6800 руб.</span>
+                  <input type="checkbox" checked class="custom-input">
+                </div>
+              </div>
+            </div>
+            <div data-row="3" class="form-group">
+              <div class="dropdown">
+                <div class="dropdown-item"><a href="#" class="dropdown-item__title">
+                    <p>Монтаж дымохода с проходом через стену длиной до 3 метров (без раюоты альпиниста и необходимости крепления дымохода на тросах растяжки)</p><i class="icon icon__arrow--blue--down"></i></a>
+                  <div class="dropdown-item__content">
+                    <div class="property">
+                      <div class="property__text">
+                        <ul class="list-bg list-bg--circle">
+                          <li>Закрытая система отопления из стали</li>
+                        </ul>
+                      </div>
+                      <div class="property__value"><span>3550 руб.</span>
+                        <input type="checkbox" class="custom-input">
+                      </div>
+                    </div>
+                    <div class="property">
+                      <div class="property__text">
+                        <ul class="list-bg list-bg--circle">
+                          <li>Закрытая система из полимерных труб</li>
+                        </ul>
+                      </div>
+                      <div class="property__value"><span>2700 руб.</span>
+                        <input type="checkbox" class="custom-input">
+                      </div>
+                    </div>
+                    <div class="property">
+                      <div class="property__text">
+                        <ul class="list-bg list-bg--circle">
+                          <li>Открытая система самотечная</li>
+                        </ul>
+                      </div>
+                      <div class="property__value"><span>3500 руб.</span>
+                        <input type="checkbox" class="custom-input">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-footer">
+              <button type="submit">Сформировать предварительную оценку</button>
+              <div class="form-footer__value"><span class="blue">Итого</span><span>8200 руб.</span></div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__col footer__col--left">
+          <div class="footer__logo"><img src="img/logo--small.png" alt=""></div>
+          <div class="footer__info">
+            <div class="phone">8 (800) 555 40 35</div>
+            <div class="mode">08:30 - 18:00 (мск)</div>
+          </div>
+          <div class="footer__menu">
+            <ul>
+              <li><a href="#">Техническая поддержка</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__col footer__col--right">
+          <div class="footer__menu">
+            <div class="footer__menu-title">Услуги</div>
+            <ul>
+              <li><a href="#">Энергоцентры и котельные</a></li>
+              <li><a href="#">Аварийно-спасательная служба</a></li>
+              <li><a href="#">Газовые котлы и системы отопления</a></li>
+              <li><a href="#">Для частных домов</a></li>
+              <li><a href="#">Водонагреватели и газовые плиты</a></li>
+              <li><a href="#">Промышленная газификация</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="vendor/fancybox-3.0/dist/jquery.fancybox.min.js"></script>
+<script src="vendor/owl-carousel/owl.carousel.min.js"></script>
+<script src="vendor/jQuery-form-styler/jquery.formstyler.min.js"></script>
+<script src="js/main.js"></script>
+<div class="modal">
+  <div id="callback-modal" class="modal__container">
+    <div class="modal__title">Закажите звонок</div>
+    <form action="" class="callback-form">
+      <input type="text" placeholder="Вас зовут" data-input-required>
+      <input type="text" placeholder="Ваш номер телефона" data-input-required>
+      <button type="submit">Заказать звонок</button>
+    </form>
+  </div>
+</div>
+<div class="modal">
+  <form id="order-modal" class="order-form">
+    <div class="modal__title">Заявка на работы</div>
+    <div class="order-form__header">
+      <div class="title">Предварительный перечень работ</div>
+      <div class="row-group">
+        <div class="row-group__text">
+          <p>Выезд мастера на адрес, консультация, диагностика</p>
+        </div>
+        <div class="row-group__value"><span>400 руб.</span></div>
+      </div>
+      <div class="row-group">
+        <div class="row-group__text">
+          <p>Монтаж напольного газовго котла с 1 контуром (обвязка по воде, подклюсение газа до 1 м до выводов подключения воды и газа)</p>
+        </div>
+        <div class="row-group__value"><span>6800 руб.</span></div>
+      </div>
+      <div class="row-footer"><span>Итого</span><span>8200 руб.</span></div>
+    </div>
+    <div class="order-form__content">
+      <div class="title">Контактные данные</div>
+      <div class="inputs">
+        <div class="inputs-col">
+          <input type="text" placeholder="Вас зовут">
+          <input type="text" placeholder="Ваш номер телефона">
+          <input type="text" placeholder="Ваш город">
+        </div>
+        <div class="inputs-col">
+          <input type="text" placeholder="Название организации">
+          <input type="text" placeholder="Ваш E-mail">
+          <input type="text" placeholder="Ваш адрес">
+        </div>
+      </div>
+      <button type="submit">Отправить</button>
+    </div>
+  </form>
+</div>
